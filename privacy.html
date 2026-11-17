@@ -18,11 +18,11 @@
 <body>
 <main>
 <h1>Privacy Policy</h1>
-<p class="muted">Tiny Kingdom Siege · Effective 14 November 2026</p>
+<p class="muted">Tiny Kingdom Siege · Effective 17 November 2026</p>
 
 <p>Tiny Kingdom Siege (“the game”) is made by Tej, an independent developer (“we”, “us”). This policy explains what information the game collects, why, who it is shared with, and the choices you have. Questions: <a href="mailto:tejpalsharma771@gmail.com">tejpalsharma771@gmail.com</a>.</p>
 
-<p><strong>The short version:</strong> there are no accounts and we never ask for your name, email or contacts. The game shows ads and measures how it is played, using AppLovin (ads), Unity Analytics and Google Firebase Analytics (game statistics). Purchases are handled entirely by Apple. You can turn analytics off in the game’s Settings and decline tracking when iOS asks.</p>
+<p><strong>The short version:</strong> there are no accounts and we never ask for your name, email or contacts. The game shows ads and measures how it is played, using AppLovin (ads) and Google Firebase (game statistics and crash reports). Purchases are handled entirely by Apple. You can turn analytics off in the game’s Settings and decline tracking when iOS asks.</p>
 
 <h2>1. Information stored on your device</h2>
 <p>Your progress (level, coins, upgrades), settings and purchases you own are saved only on your device. Deleting the game deletes this data. Purchases can be brought back with <em>Restore Purchases</em> in the game’s Shop.</p>
@@ -36,9 +36,9 @@
 </ul>
 <p>If you choose <em>Ask App Not to Track</em>, the game works exactly the same; ads are simply not personalised using your IDFA.</p>
 
-<h2>3. Game analytics (Unity Analytics and Google Firebase Analytics)</h2>
-<p>To understand which levels are too hard and how the game can be improved, we record gameplay events: levels started, won or lost (with the level number and how long it took), ads shown and completed, purchases made, and session length. These services also receive device model, operating system, country and a random app-instance identifier. This data is not used to identify you.</p>
-<p>Providers: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Technologies</a> and <a href="https://firebase.google.com/support/privacy">Google Firebase</a>. You can switch analytics off at any time in <em>Settings → Analytics</em>.</p>
+<h2>3. Game analytics and crash reports (Google Firebase)</h2>
+<p>To understand which levels are too hard and how the game can be improved, we record gameplay events: levels started, won or lost (with the level number and how long it took), ads shown and completed, purchases made, and session length. Firebase also receives device model, operating system, country and a random app-instance identifier. If the game crashes, Firebase Crashlytics sends a crash report (where in the game it crashed, device model, OS version, free memory) so we can fix it. This data is not used to identify you.</p>
+<p>Provider: <a href="https://firebase.google.com/support/privacy">Google Firebase</a> (Analytics and Crashlytics). You can switch both off at any time in <em>Settings → Analytics</em>.</p>
 
 <h2>4. In-app purchases</h2>
 <p>Purchases (Remove Ads, Starter Pack) are processed by Apple. We never see your payment details. We receive only which item was bought, its price and currency, so the game can unlock it and count sales.</p>
@@ -48,8 +48,9 @@
   <tr><th>Data</th><th>Purpose</th><th>Shared with</th></tr>
   <tr><td>Advertising identifier (IDFA), only with your permission</td><td>Personalised ads, ad measurement</td><td>AppLovin and its ad partners</td></tr>
   <tr><td>Vendor ID, device model, OS, IP address, coarse location</td><td>Showing and measuring ads, fraud prevention</td><td>AppLovin and its ad partners</td></tr>
-  <tr><td>Gameplay events, session length, app-instance ID</td><td>Improving the game</td><td>Unity, Google Firebase</td></tr>
-  <tr><td>Purchased item, price, currency</td><td>Unlocking purchases, sales statistics</td><td>Apple, Unity, Google Firebase</td></tr>
+  <tr><td>Gameplay events, session length, app-instance ID</td><td>Improving the game</td><td>Google Firebase</td></tr>
+  <tr><td>Crash reports (crash location, device model, OS, memory)</td><td>Fixing crashes</td><td>Google Firebase</td></tr>
+  <tr><td>Purchased item, price, currency</td><td>Unlocking purchases, sales statistics</td><td>Apple, Google Firebase</td></tr>
 </table></div>
 <p>We do not sell personal information for money. When you allow tracking, sharing your IDFA with ad partners for personalised advertising may count as “sharing” under some US state laws; choosing <em>Ask App Not to Track</em> stops it.</p>
 
@@ -57,7 +58,7 @@
 <ul>
   <li><strong>Tracking:</strong> answer the iOS prompt, or change it later in iOS Settings → Privacy &amp; Security → Tracking.</li>
   <li><strong>Analytics:</strong> turn off in the game’s Settings.</li>
-  <li><strong>Access or deletion:</strong> email us and we will ask Unity and Google to delete analytics data linked to your device’s identifiers. Ad data can be managed through <a href="https://www.applovin.com/privacy/">AppLovin’s privacy page</a>.</li>
+  <li><strong>Access or deletion:</strong> email us and we will ask Google to delete analytics data linked to your device’s identifiers. Ad data can be managed through <a href="https://www.applovin.com/privacy/">AppLovin’s privacy page</a>.</li>
   <li>Depending on where you live (for example the EU, UK or California) you may have rights to access, correct, delete or object to processing of your data. Contact us to use them. Our legal bases are your consent (tracking) and our legitimate interest in running and improving a free, ad-supported game.</li>
 </ul>
 
@@ -65,7 +66,7 @@
 <p>The game is not directed to children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided information, contact us and we will delete it.</p>
 
 <h2>8. Retention and security</h2>
-<p>Analytics data is kept by Unity and Google for up to 14 months and ad data according to AppLovin’s policy. Data is sent over encrypted connections.</p>
+<p>Analytics data is kept by Google for up to 14 months, crash reports for 90 days, and ad data according to AppLovin’s policy. Data is sent over encrypted connections.</p>
 
 <h2>9. Changes</h2>
 <p>We will post updates on this page and change the date at the top.</p>
